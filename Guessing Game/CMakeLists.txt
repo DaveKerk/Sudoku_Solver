@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
-project(Figuring_Stuff_Out)
+project(Guessing_Game)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
-add_executable(Figuring_Stuff_Out ${SOURCE_FILES})
+add_executable(Guessing_Game ${SOURCE_FILES})
