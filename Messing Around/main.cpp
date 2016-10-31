@@ -13,8 +13,9 @@ int main()
     std::cin >> response;
     if (response == "sure" || "y" || "Y" || "yes")
     {
-        cout << "Great!! For me... BUAHAHAHAHAHAHA!!!\n";
-
+        cout << "Great!! For me... BUAHAHAHAHAHAHA!!!";
+        cout << std::endl;
+        cout << "What sort of game do you feel like playing?\nA guessing game?\nA maze game?\n";
 
     }
     return 0;
