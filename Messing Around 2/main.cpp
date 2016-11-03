@@ -10,7 +10,8 @@ int main()
     {
         ghost++;
         std::cout<<std::setfill('#')<<std::setw(5);
-        std::cout<<"Hello World!";
+        std::cout<<std::setw(5);
+
     }
     return 0;
 }
