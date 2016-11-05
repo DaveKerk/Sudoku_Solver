@@ -1,17 +1,16 @@
 #include <iostream>
 #include <iomanip>
-
+using namespace std;
 
 int main()
 {
-    int ghost;
-    ghost=0;
-    for(ghost >= 0; ghost <4;)
-    {
-        ghost++;
-        std::cout<<std::setfill('#')<<std::setw(5);
-        std::cout<<std::setw(5);
-
-    }
+        for (int x=0; x < 3; x++)
+        {
+            for(int x =0; x < 4; x++)
+                    {
+                            cout << setw(10) << "#####" << setw(10);
+                    }
+            cout << endl;
+        }
     return 0;
 }
