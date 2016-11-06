@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
-project(Messing_Around_2)
+project(Chess_Board)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
-add_executable(Messing_Around_2 ${SOURCE_FILES})
+add_executable(Chess_Board ${SOURCE_FILES})
